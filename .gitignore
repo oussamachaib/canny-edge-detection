@@ -20,3 +20,8 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+test*.ipynb
+.ipynb_checkpoints
+__pycache__
+debugging.py
