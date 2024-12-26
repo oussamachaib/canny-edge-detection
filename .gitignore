@@ -22,6 +22,7 @@ rad.json
 TestResults.xml
 
 test*.ipynb
+testing.py
 .ipynb_checkpoints
 __pycache__
 debugging.py
