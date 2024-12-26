@@ -11,3 +11,9 @@ The algorithm takes a grayscale image as input, in addition to parameters pertai
 In the Jupyter Notebook, I demonstrate the performance of my implementation on pictures of four flower species.
 
 While this was done for learning purposes, it might be useful for those trying to build an intuition about the method (and convolutional kernels and operations, in general).
+
+##### Contents
+---------------
+```canny_operator.py```: Python implementation of the algorithm.
+
+```demo.ipynb```: Demonstration.
