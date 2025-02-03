@@ -136,7 +136,7 @@ class canny:
         G = np.sqrt(Gx ** 2 + Gy ** 2)
         G /= G.max()
 
-        # Computational trick: by rotation the octants and clever use of mirroring, we can limit the analysis to a single quadrant, and without the need for angle computation via arctan2
+        # Computational trick: by rotating the octants and clever use of mirroring, we can limit the analysis to a single quadrant, and without the need for angle computation via arctan2
         angle_rot = np.pi / 8
 
         # Rotating by pi/8 clockwise -- bear in mind the image's y-axis points downwards!
